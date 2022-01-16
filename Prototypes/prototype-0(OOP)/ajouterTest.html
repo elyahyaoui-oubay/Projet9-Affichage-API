@@ -1,0 +1,19 @@
+<script src="work.js"></script>
+<script src="workmanager.js"></script>
+
+<script>
+    var workManager = new WorkManager();
+
+    console.log("Avant: " + workManager.workList)
+
+    // Ajouter un ouvrage
+    var work = new Work();
+    work.title = "My Title"
+    workManager.addWork(work)
+    workManager.addWork(work)
+
+
+    for (var i = 0; i < workManager.workList.length; i++) {
+        console.log("après: " + workManager.workList[i].title)
+    }
+</script>
