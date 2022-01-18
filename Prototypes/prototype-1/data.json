@@ -1,18 +1,18 @@
 {
     "cars":[{
 
-        "make":"Audi",
-        "model":"RS3"
+        "make":"Audi RS 5",
+        "price":"76,145"
     },
 
     {
         "make":"Tesla",
-        "model":"Model S"
+        "price":"85,00"
     },
 
     {
-        "make":"Mercedes",
-        "model":"Class a"
+        "make":"Mercedes Class a",
+        "price":"55,00"
     }
 ]
 }
