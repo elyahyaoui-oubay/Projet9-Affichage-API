@@ -12,7 +12,16 @@
             .then(function(response){
                 return response.json()
             })
-            
+            .then(function(data){
+                for (var i = 0; i < data.cars.length; i++){
+                    document.write("<p>" + data.cars[i].model +
+                        " " + data.cars[i].make + "</p>"
+                    )
+                }
+            })
+            .catch(function (error){
+                console.log(error)
+            })
     </script>
 </body>
 </html>
